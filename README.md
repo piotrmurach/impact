@@ -1,6 +1,8 @@
 # Impact
 [![Build Status](https://secure.travis-ci.org/peter-murach/impact.png?branch=master)][travis]
 
+[travis]: http://travis-ci.org/peter-murach/impact
+
 Ruby backend for Impact.js framework.
 
 ## Installation
@@ -29,7 +31,7 @@ Change your game config paths to:
   }
 ```
 
-And start up the server by running in the project directory:
+And start up the server by running command in the project root directory:
 
 ```shell
   impact
@@ -41,7 +43,9 @@ To see available server settings do:
   impact -h
 ```
 
-Visit the `localhost:4567` to see the game and `localhost:4567/weltmeister` to see level editor.
+Visit the `localhost:4567` to render the game and `localhost:4567/weltmeister` to use level editor.
+
+### Rails
 
 ## Contributing
 
