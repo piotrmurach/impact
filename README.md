@@ -1,6 +1,7 @@
 # Impact
+[![Build Status](https://secure.travis-ci.org/peter-murach/impact.png?branch=master)][travis]
 
-TODO: Write a gem description
+Ruby backend for Impact.js framework.
 
 ## Installation
 
@@ -18,7 +19,29 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Change your game config paths to:
+
+```javascript
+  'api': {
+    'save': 'lib/weltmeister/api/save',
+    'browse': 'lib/weltmeister/api/browse',
+    'glob': 'lib/weltmeister/api/glob'
+  }
+```
+
+And start up the server by running in the project directory:
+
+```shell
+  impact
+```
+
+To see available server settings do:
+
+```shell
+  impact -h
+```
+
+Visit the `localhost:4567` to see the game and `localhost:4567/weltmeister` to see level editor.
 
 ## Contributing
 
