@@ -1,5 +1,8 @@
+# -*- encoding: utf-8 -*-
+
 require 'sinatra/base'
 require 'pathname'
+require 'json'
 
 module Impact
   class Server < Sinatra::Base
