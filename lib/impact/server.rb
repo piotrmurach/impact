@@ -7,9 +7,11 @@ require 'json'
 module Impact
   class Server < Sinatra::Base
 
-    set :public_folder, File.join(File.dirname(__FILE__), '/')
+    set :public_folder, File.join(Dir.pwd, '/')
 
-    set :root, File.join(File.dirname(__FILE__), '/')
+    set :static, true
+
+    set :root, File.join('./')
 
     get '/' do
       File.read('index.html')
